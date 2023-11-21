@@ -1,0 +1,202 @@
+[
+    {
+        "categoria":"Gyarados",
+        "pregunta": "¿Qué combinación de tipos tiene Gyarados?",
+        "respuesta": "Agua y Volador",
+        "incorrecta1": "Agua",
+        "incorrecta2": "Dragón",
+        "incorrecta3": "Dragón y Hielo",
+        "imagen": "https://i.ibb.co/DLtYvxm/130.png",
+        "objectFit": "cover"
+    },
+    {
+        "categoria":"Pikachu",
+        "pregunta": "¿Qué número de Pokémon es Pikachu?",
+        "respuesta": "25",
+        "incorrecta1": "100",
+        "incorrecta2": "1",
+        "incorrecta3": "50",
+        "imagen": "https://i.ibb.co/5x8j99m/025.png",
+        "objectFit": "cover"
+    },
+    {
+        "categoria":"Venusaur",
+        "pregunta": "Venusaur es un pokémon de dos tipos, uno es planta. ¿Cuál es el otro tipo?",
+        "respuesta": "Veneno",
+        "incorrecta1": "Tierra",
+        "incorrecta2": "Agua",
+        "incorrecta3": "Normal",
+        "imagen": "https://i.ibb.co/SwQRnMv/003.png",
+        "objectFit": "cover"
+    },
+    {
+        "categoria":"Squirtle",
+        "pregunta": "¿Cuantas evoluciones tiene Squirtle?",
+        "respuesta": "2",
+        "incorrecta1": "Ninguna",
+        "incorrecta2": "1",
+        "incorrecta3": "5",
+        "imagen": "https://i.ibb.co/L5d1L05/007.pngg",
+        "objectFit": "cover"
+    },
+    {
+        "categoria":"Snorlax",
+        "pregunta": "¿Cuanto pesa Snorlax?",
+        "respuesta": "Entre 400kg y 500kg",
+        "incorrecta1": "Entre 300kg y 400kga",
+        "incorrecta2": "Entre 500kg y 600kg",
+        "incorrecta3": "Entre 200kg y 300kg",
+        "imagen": "https://i.ibb.co/VD71HCD/143.png",
+        "objectFit": "cover"
+    },
+    {
+        "categoria":"Eevee",
+        "pregunta": "¿Qué piedra usarías para evolucionar este Eevee en un vaporeon?",
+        "respuesta": "Piedra Agua",
+        "incorrecta1": "Piedra Fuego",
+        "incorrecta2": "Piedra Trueno",
+        "incorrecta3": "Piedra Lunar",
+        "imagen": "https://i.ibb.co/XXr5p8c/133.png",
+        "objectFit": "cover"
+    },
+    {
+        "categoria":"Dragonite",
+        "pregunta": "¿Qué Pokémon es el que debes conseguir para que evolucione en Dragonite?",
+        "respuesta": "Dratini",
+        "incorrecta1": "Charmander",
+        "incorrecta2": "Cubone",
+        "incorrecta3": "Exeggcute",
+        "imagen": "https://i.ibb.co/ykqZBz7/149.png",
+        "objectFit": "cover"
+    },
+    {
+        "categoria":"¿?",
+        "pregunta": "¿Cómo se llama este Pokémon?",
+        "respuesta": "Magmar",
+        "incorrecta1": "Gengar",
+        "incorrecta2": "Mr.Mime",
+        "incorrecta3": "Jynx",
+        "imagen": "https://i.ibb.co/pjxhnBP/126.png",
+        "objectFit": "cover"
+    },
+    {
+        "categoria":"Lickitung",
+        "pregunta": "¿De que tipo es Lickitung?",
+        "respuesta": "Normal",
+        "incorrecta1": "Agua",
+        "incorrecta2": "Lucha",
+        "incorrecta3": "Poison",
+        "imagen": "https://i.ibb.co/PTcPMsV/108.png",
+        "objectFit": "cover"
+    },
+    {
+        "categoria":"Psyduck",
+        "pregunta": "¿Cual es la debilidad de Psyduck?",
+        "respuesta": "Agua y Electrico",
+        "incorrecta1": "Fuego",
+        "incorrecta2": "Lucha",
+        "incorrecta3": "Tierra",
+        "imagen": "https://i.ibb.co/xHzdq2M/054.png",
+        "objectFit": "cover"
+    },
+    {
+        "categoria":"¿?",
+        "pregunta": "¿Cómo se llama este Pokémon?",
+        "respuesta": "Abra",
+        "incorrecta1": "Kadabra",
+        "incorrecta2": "Alakazam",
+        "incorrecta3": "Gengar",
+        "imagen": "https://i.ibb.co/MCR4ZWY/063.png",
+        "objectFit": "cover"
+    },
+    {
+        "categoria":"Mewtwo",
+        "pregunta": "¿Qué número de Pokémon es Mewtwo?",
+        "respuesta": "150",
+        "incorrecta1": "102",
+        "incorrecta2": "60",
+        "incorrecta3": "70",
+        "imagen": "https://i.ibb.co/BVcCtpz/150.png",
+        "objectFit": "cover"
+    },
+    {
+        "categoria":"Zapdos",
+        "pregunta": "Zapdos es un pokémon de dos tipos, uno es eléctrico. ¿Cuál es el otro tipo?",
+        "respuesta": "Volador",
+        "incorrecta1": "Lucha",
+        "incorrecta2": "Agua",
+        "incorrecta3": "Normal",
+        "imagen": "https://i.ibb.co/dkzpPVX/145.png",
+        "objectFit": "cover"
+    },
+    {
+        "categoria":"Machop",
+        "pregunta": "¿Cuantas evoluciones tiene Machop?",
+        "respuesta": "2",
+        "incorrecta1": "Ninguna",
+        "incorrecta2": "1",
+        "incorrecta3": "3",
+        "imagen": "https://i.ibb.co/zQQvRm8/066.png",
+        "objectFit": "cover"
+    },
+    {
+        "categoria":"Golem",
+        "pregunta": "¿Qué Pokémon es el que debes conseguir para que evolucione en Golem?",
+        "respuesta": "Geodude",
+        "incorrecta1": "Tentacruel",
+        "incorrecta2": "Ponyta",
+        "incorrecta3": "Magnemite",
+        "imagen": "https://i.ibb.co/31stn9k/076.png",
+        "objectFit": "cover"
+    }, 
+    {
+        "categoria":"Gengar",
+        "pregunta": "¿De que tipo es Gengar?",
+        "respuesta": "Fantasma y Veneno",
+        "incorrecta1": "Veneno",
+        "incorrecta2": "Siniestro",
+        "incorrecta3": "Psíquico",
+        "imagen": "https://i.ibb.co/7J2mwjn/094.png",
+        "objectFit": "cover"
+    },
+    {
+        "categoria":"¿?",
+        "pregunta": "¿Cómo se llama este Pokémon?",
+        "respuesta": "Cubone",
+        "incorrecta1": "Marowak",
+        "incorrecta2": "Horsea",
+        "incorrecta3": "Ditto",
+        "imagen": "https://i.ibb.co/dJ15dFR/104.png",
+        "objectFit": "cover"
+    },
+    {
+        "categoria":"Ditto",
+        "pregunta": "¿Cual es la debilidad de Ditto?",
+        "respuesta": "Lucha",
+        "incorrecta1": "Fuego",
+        "incorrecta2": "Normal",
+        "incorrecta3": "Volador",
+        "imagen": "https://i.ibb.co/vs3RtDB/132.png",
+        "objectFit": "cover"
+    },
+    {
+        "categoria":"Porygon",
+        "pregunta": "¿Cuantas evoluciones tiene Porygon?",
+        "respuesta": "Ninguna",
+        "incorrecta1": "2",
+        "incorrecta2": "1",
+        "incorrecta3": "3",
+        "imagen": "https://i.ibb.co/FwXnd3Y/137.png",
+        "objectFit": "cover"
+    },
+    {
+        "categoria":"¿?",
+        "pregunta": "¿Cómo se llama este Pokémon?",
+        "respuesta": "Jolteon",
+        "incorrecta1": "Pikachu",
+        "incorrecta2": "Lapras",
+        "incorrecta3": "Flareon",
+        "imagen": "https://i.ibb.co/nkNNJ43/135.png",
+        "objectFit": "cover"
+    }
+]

@@ -1,0 +1,443 @@
+body{
+  height: 100%;
+  text-align:center;
+  background-color:#ffcc8e;
+  background-image:
+  linear-gradient(45deg, #FFDD88 25%, transparent 25%, transparent 75%, #FFDD88 75%, #FFDD88), 
+  linear-gradient(45deg, #FFDD88 25%, transparent 25%, transparent 75%, #FFDD88 75%, #FFDD88),
+  linear-gradient(45deg, transparent, transparent 50%, #FFC87F 50%, #FFC87F);
+  animation: scroll 4s linear infinite;
+  background-size: 100px 100px;
+  }
+  @keyframes scroll {
+    from { background-position: 0 0, 50px 50px, 50px 0; }
+    to { background-position: -100px -100px, -50px -50px, -50px -100px; }
+  }
+  nav {
+  margin: 27px auto 0;
+  
+  position: relative;
+  width: 471px;
+  height: 50px;
+  background-color: #FFA12B;
+  border-radius: 8px;
+  font-size: 0;
+  }
+  nav a {
+  line-height: 50px;
+  height: 100%;
+  font-size: 15px;
+  display: inline-block;
+  position: relative;
+  z-index: 1;
+  text-decoration: none;
+  text-transform: uppercase;
+  text-align: center;
+  color: white;
+  cursor: pointer;
+  }
+  nav .animation {
+  position: absolute;
+  height: 100%;
+  top: 0;
+  z-index: 0;
+  transition: all .5s ease 0s;
+  border-radius: 8px;
+  }
+  a:nth-child(1) {
+  width: 100px;
+  }
+  a:nth-child(2) {
+  width: 110px;
+  }
+  a:nth-child(3) {
+  width: 100px;
+  }
+  a:nth-child(4) {
+  width: 160px;
+  }
+  
+  nav .start-home, a:nth-child(1):hover~.animation {
+  width: 100px;
+  left: 0;
+  background-color: #e67e22;
+  }
+  nav .start-about, a:nth-child(2):hover~.animation {
+  width: 110px;
+  left: 100px;
+  background-color: #e67e22;
+  }
+  nav .start-blog, a:nth-child(3):hover~.animation {
+  width: 100px;
+  left: 210px;
+  background-color: #e67e22;
+  }
+  nav .start-portefolio, a:nth-child(4):hover~.animation {
+  width: 160px;
+  left: 310px;
+  background-color: #e67e22;
+  }
+  
+  
+  h1 {
+  text-align: center;
+  margin: 40px 0 40px;
+  text-align: center;
+  font-size: 30px;
+  color: #ecf0f1;
+  text-shadow: 2px 2px 4px #000000;
+  font-family: 'Cherry Swash', cursive;
+  }
+  
+  p {
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+    text-align: center;
+    color: #ecf0f1;
+    font-family: 'Cherry Swash',cursive;
+    font-size: 16px;
+  }
+  
+  span {
+    color: #2BD6B4;
+  }
+  
+  .button{
+    position:relative;
+    display:inline-block;
+    margin:102px;
+  }
+  
+  .button a{
+    height: auto;
+    width: auto;
+    color:white;
+    font-family:Helvetica, sans-serif;
+    font-weight:bold;
+    font-size:20px;
+    text-align: center;
+    text-decoration:none;
+    background-color:#FFA12B;
+    display:block;
+    position:relative;
+    padding:50px 60px;
+    justify-content: space-around;
+    
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    text-shadow: 0px 1px 0px #000;
+    filter: dropshadow(color=#000, offx=0px, offy=1px);
+    
+    -webkit-box-shadow:inset 0 1px 0 #FFE5C4, 0 10px 0 #915100;
+    -moz-box-shadow:inset 0 1px 0 #FFE5C4, 0 10px 0 #915100;
+    box-shadow:inset 0 1px 0 #FFE5C4, 0 10px 0 #915100;
+    
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+  }
+  
+  .button a:active{
+    top:10px;
+    background-color:#F78900;
+    
+    -webkit-box-shadow:inset 0 1px 0 #FFE5C4, inset 0 -3px 0 #915100;
+    -moz-box-shadow:inset 0 1px 0 #FFE5C4, inset 0 -3pxpx 0 #915100;
+    box-shadow:inset 0 1px 0 #FFE5C4, inset 0 -3px 0 #915100;
+  }
+  
+  .button:after{
+    content:"";
+    height:100%;
+    width:100%;
+    padding:4px;
+    position: absolute;
+    bottom:-15px;
+    left:-4px;
+    z-index:-1;
+    background-color:#2B1800;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+  }
+
+
+.social-buttons {
+    display: flex; 
+    justify-content: center; 
+    margin: 100px 0; 
+}
+
+.social-buttons div {
+    margin: 0 10px; 
+}
+
+.social-buttons a {
+    height: auto;
+    width: auto;
+    color: white;
+    font-family: Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 70px;
+    text-align: center;
+    text-decoration: none;
+    background-color: #FFA12B;
+    display: block;
+    position: relative;
+    padding: 40px 50px;
+    text-shadow: 0px 1px 0px #000;
+    filter: dropshadow(color=#000, offx=0px, offy=1px);
+    box-shadow: inset 0 1px 0 #FFE5C4, 0 10px 0 #915100;
+    border-radius: 5px;
+}
+
+.social-buttons a:active {
+    top: 40px;
+    background-color: #F78900;
+    box-shadow: inset 0 1px 0 #FFE5C4, inset 0 -3px 0 #915100;
+}
+
+  .centrado{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000;
+  }
+
+  
+  .footer{
+    
+    
+    border-width: 1px;
+    
+    height: 100px;
+    padding: 40px;
+    text-align: center;
+    color: #fff;
+  }
+  .footer .red{
+    height: 100px;
+    padding: 40px;
+  }
+      
+  .footer .row{
+    width:100%;
+    margin:1% 0%;
+    padding:0.6% 0%;
+    color:gray;
+    font-size:0.8em;
+  }
+      
+  .footer .row a{
+    text-decoration:none;
+    color:gray;
+    transition:0.5s;
+  }
+      
+  .footer .row a:hover{
+    color:#fff;
+  }
+      
+  .footer .row ul{
+    width:100%;
+  }
+      
+  .footer .row ul li{
+    display:inline-block;
+    margin:0px 30px;
+  }
+  
+  .footer .row a i{
+    font-size:2em;
+    margin:0% 1%;
+  }
+
+
+  @media (max-width:720px){
+    nav {
+      width: 80%; /* Cambiamos el ancho a un porcentaje en pantallas más pequeñas */
+    }
+  
+    a:nth-child(1) {
+      width: 20%; /* Porcentaje del ancho total para el primer enlace */
+    }
+  
+    a:nth-child(2) {
+      width: 30%; /* Porcentaje del ancho total para el segundo enlace */
+    }
+  
+    a:nth-child(3) {
+      width: 20%; /* Porcentaje del ancho total para el tercer enlace */
+    }
+  
+    a:nth-child(4) {
+      width: 30%; /* Porcentaje del ancho total para el cuarto enlace */
+    }
+  
+    nav .start-home, a:nth-child(1):hover~.animation {
+      width: 20%; /* Ancho del enlace y la animación en pantallas más pequeñas */
+      left: 0;
+    }
+  
+    nav .start-quiz, a:nth-child(2):hover~.animation {
+      width: 30%; /* Ancho del enlace y la animación en pantallas más pequeñas */
+      left: 20%; /* Alineado después del primer enlace */
+    }
+  
+    nav .start-pokedex, a:nth-child(3):hover~.animation {
+      width: 20%; /* Ancho del enlace y la animación en pantallas más pequeñas */
+      left: 50%; /* Alineado después del segundo enlace */
+    }
+  
+    nav .start-contacto, a:nth-child(4):hover~.animation {
+      width: 30%; /* Ancho del enlace y la animación en pantallas más pequeñas */
+      left: 70%; /* Alineado después del tercer enlace */
+    }
+  
+
+  
+    .footer{
+      text-align:left;
+      padding:5%;
+      width: 200px;
+    }
+    .footer .row ul li{
+      width: 200px;
+      display:block;
+      margin:10px 0px;
+      text-align:left;
+    }
+    .footer .row a i{
+      margin:0% 3%;
+      width: 200px;
+    }
+    .social-buttons {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin: 15px auto;
+    }
+  }
+  
+  @media (max-width: 560px) {
+    nav {
+      width: 70%; /* Cambiamos el ancho a un porcentaje en pantallas más pequeñas */
+    }
+  
+    a:nth-child(1) {
+      width: 15%; /* Porcentaje del ancho total para el primer enlace */
+    }
+  
+    a:nth-child(2) {
+      width: 25%; /* Porcentaje del ancho total para el segundo enlace */
+    }
+  
+    a:nth-child(3) {
+      width: 15%; /* Porcentaje del ancho total para el tercer enlace */
+    }
+  
+    a:nth-child(4) {
+      width: 25%; /* Porcentaje del ancho total para el cuarto enlace */
+    }
+  
+    nav .start-home, a:nth-child(1):hover~.animation {
+      width: 15%; /* Ancho del enlace y la animación en pantallas más pequeñas */
+      left: 0;
+    }
+  
+    nav .start-quiz, a:nth-child(2):hover~.animation {
+      width: 25%; /* Ancho del enlace y la animación en pantallas más pequeñas */
+      left: 15%; /* Alineado después del primer enlace */
+    }
+  
+    nav .start-pokedex, a:nth-child(3):hover~.animation {
+      width: 15%; /* Ancho del enlace y la animación en pantallas más pequeñas */
+      left: 40%; /* Alineado después del segundo enlace */
+    }
+  
+    nav .start-contacto, a:nth-child(4):hover~.animation {
+      width: 25%; /* Ancho del enlace y la animación en pantallas más pequeñas */
+      left: 60%; /* Alineado después del tercer enlace */
+    }
+  
+  
+  }
+  @media (max-width: 560px) {
+    nav {
+      width: 70%; /* Cambiamos el ancho a un porcentaje en pantallas más pequeñas */
+    }
+  
+    a:nth-child(1) {
+      width: 15%; /* Porcentaje del ancho total para el primer enlace */
+    }
+  
+    a:nth-child(2) {
+      width: 25%; /* Porcentaje del ancho total para el segundo enlace */
+    }
+  
+    a:nth-child(3) {
+      width: 15%; /* Porcentaje del ancho total para el tercer enlace */
+    }
+  
+    a:nth-child(4) {
+      width: 25%; /* Porcentaje del ancho total para el cuarto enlace */
+    }
+  
+    nav .start-home, a:nth-child(1):hover~.animation {
+      width: 15%; /* Ancho del enlace y la animación en pantallas más pequeñas */
+      left: 0;
+    }
+  
+    nav .start-quiz, a:nth-child(2):hover~.animation {
+      width: 25%; /* Ancho del enlace y la animación en pantallas más pequeñas */
+      left: 15%; /* Alineado después del primer enlace */
+    }
+  
+    nav .start-pokedex, a:nth-child(3):hover~.animation {
+      width: 15%; /* Ancho del enlace y la animación en pantallas más pequeñas */
+      left: 40%; /* Alineado después del segundo enlace */
+    }
+  
+    nav .start-contacto, a:nth-child(4):hover~.animation {
+      width: 25%; /* Ancho del enlace y la animación en pantallas más pequeñas */
+      left: 60%; /* Alineado después del tercer enlace */
+    }
+    p {
+      position: auto;}
+   
+  }
+
+
+
+
+
+  
+  @media (max-width: 561px) {
+    nav{
+      width: 300px;
+      
+    }
+    nav a {
+      font-size: 10px; 
+      margin:auto;
+    }
+    nav .animation{
+      display: none;
+    }
+ 
+   
+  
+    .social-buttons a {
+    
+      font-size: 20px;
+  }  
+  
+  @media (max-width: 290px) {
+    nav{
+      width: 280px;
+     
+    }
+  
+  }}
+  

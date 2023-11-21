@@ -1,0 +1,37 @@
+<!DOCTYPE html><html lang="en"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../imgs/pokebola.png" type="image/x-icon">
+    <title>Poke Labo | Quiz</title>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.3.0/dist/sweetalert2.all.min.js"></script>
+    <link rel="stylesheet" href="../styles/quiz.css">
+  </head>
+  
+  <body>
+    
+    <nav>
+      <a href="../index.html">Home</a>
+      <a href="/pages/quiz.html">Quiz</a>
+      <a href="./pokedex_page.html">Pokedex</a>
+      
+      <a href="./contact.html">Contact</a>
+      <div class="animation start-home"></div>
+    </nav>
+    <div class="contenedor">
+      <div class="puntaje" id="puntaje"></div>
+      <div class="encabezado">
+        <div class="categoria" id="categoria">
+        </div>
+        <div class="numero" id="numero"></div>
+        <div class="pregunta" id="pregunta">
+        </div>
+        <img src="#" class="imagen" id="imagen">
+      </div>
+      <div class="btn" id="btn1" onclick="oprimir_btn(0)"></div>
+      <div class="btn" id="btn2" onclick="oprimir_btn(1)"></div>
+      <div class="btn" id="btn3" onclick="oprimir_btn(2)"></div>
+      <div class="btn" id="btn4" onclick="oprimir_btn(3)"></div>
+      <script src="../scripts/quiz.js"></script>
+    </div>
+  </body>
+</html>
